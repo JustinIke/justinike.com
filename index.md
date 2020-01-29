@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+# Hello. I'm Justin.
+
+I'm a student writing about my experiences in computing, trials for various hobbies, and relections from life.
