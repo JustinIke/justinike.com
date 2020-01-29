@@ -1,0 +1,56 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$grey-color-light: #565656;
+
+
+/**
+* Basic styling
+*/
+body {
+  color: #f7f7f7;
+  background-color: #343434;
+}
+
+/**
+* Site header
+*/
+.site-header {
+  border-top: 5px solid #343434;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 55.95px;
+  position: relative; }
+
+  .site-title, .site-title:visited {
+    color: #f7f7f7; }
+ 
+  .site-nav .page-link {
+      color: #f7f7f7; }
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+  }
+
+/**
+* Links
+*/
+a {
+  color: #62a388;
+  text-decoration: none; }
+  a:visited {
+    color: #62a388; }
+  a:hover {
+    color: #62a388; }
+
+/**
+ * Code formatting
+ */
+ pre,
+ code {
+   border: 1px solid #222222;
+   background-color: #222222; }
