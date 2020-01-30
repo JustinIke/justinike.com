@@ -10,6 +10,7 @@ $grey-color-light: #565656;
 * Basic styling
 */
 body {
+  font: 400 20px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #f7f7f7;
   background-color: #343434;
 }
@@ -24,6 +25,7 @@ body {
   position: relative; }
 
   .site-title, .site-title:visited {
+    font-size: 28px;
     color: #f7f7f7; }
  
   .site-nav .page-link {
@@ -38,22 +40,31 @@ body {
   .footer-col {
     margin-bottom: 0px;
 }
+.footer-col-wrapper {
+  font-size: 18px;
+}
 
 /**
 * Links
 */
 a {
-  color: #62a388;
-  text-decoration: none; }
+  color: #62A388; }
   a:visited {
-    color: #62a388; }
+    color: #62A388; }
   a:hover {
-    color: #62a388; }
+    color: #62A388; }
 
 /**
  * Code formatting
  */
  pre,
  code {
+   font-size: 17px;
    border: 1px solid #222222;
    background-color: #222222; }
+
+
+.post-meta {
+    font-size: 16px;
+    color: #828282;
+}
