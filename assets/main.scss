@@ -30,6 +30,12 @@ body {
   background-color: #343434;
 }
 
+blockquote {
+  color: #f7f7f7;
+  background-color: #222222;
+  border-left: 4px solid #62A388;
+}
+
 /**
 * Site header
 */
@@ -99,3 +105,23 @@ a {
     color: #828282;
 }
 
+/**
+ * Tables
+ */
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: #f7f7f7;
+  border-collapse: collapse;
+  border: 1px solid #f7f7f7; }
+  table tr:nth-child(even) {
+    background-color: #2b2b2b; }
+  table th, table td {
+    padding: 10px 15px; }
+  table th {
+    background-color: #2b2b2b;
+    border: 1px solid $grey-color-light;
+    border-bottom-color: $grey-color-light; }
+  table td {
+    border: 1px solid $grey-color-light; }
