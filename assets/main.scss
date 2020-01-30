@@ -5,6 +5,21 @@
 
 $grey-color-light: #565656;
 
+::selection {
+  background: #055e68; 
+}
+::-moz-selection {
+  background: #055e68; 
+}
+::-o-selection {
+  background: #055e68;
+}
+::-ms-selection {
+  background: #055e68;
+}
+::-webkit-selection {
+  background: #055e68;
+}
 
 /**
 * Basic styling
