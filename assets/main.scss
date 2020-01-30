@@ -31,6 +31,12 @@ body {
   .site-nav .page-link {
       color: #f7f7f7; }
 
+  .header-logo {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
 /**
  * Site footer
  */
@@ -68,3 +74,4 @@ a {
     font-size: 16px;
     color: #828282;
 }
+
