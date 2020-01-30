@@ -37,6 +37,15 @@ body {
     margin-top: 10px;
   }
 
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      background-color: #343434;
+      border: 1px solid #f7f7f7; }
+
+    .site-nav .menu-icon > svg {
+      fill: #f7f7f7; }
+    }
+
 /**
  * Site footer
  */
