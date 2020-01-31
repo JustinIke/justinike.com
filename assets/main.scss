@@ -133,3 +133,10 @@ table {
     border-bottom-color: $grey-color-light; }
   table td {
     border: 1px solid $grey-color-light; }
+
+
+.iframe iframe{
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+}
