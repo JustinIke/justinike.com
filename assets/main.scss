@@ -26,12 +26,20 @@ $grey-color-light: #565656;
 */
 body {
   font: 400 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #cccccc;
+  background-color: #222222;
+}
+
+h1,
+h2,
+h3,
+strong {
   color: #f7f7f7;
-  background-color: #343434;
+  font-weight: 500;
 }
 
 blockquote {
-  color: #f7f7f7;
+  color: #cccccc;
   background-color: #222222;
   border-left: 4px solid #62A388;
 }
@@ -40,7 +48,7 @@ blockquote {
 * Site header
 */
 .site-header {
-  border-top: 5px solid #343434;
+  border-top: 5px solid #222222;
   border-bottom: 1px solid $grey-color-light;
   min-height: 55.95px;
   position: relative; }
@@ -112,7 +120,7 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #f7f7f7;
+  color: #cccccc;
   border-collapse: collapse;
   border: 1px solid #f7f7f7; }
   table tr:nth-child(even) {
