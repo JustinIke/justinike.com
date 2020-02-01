@@ -22,7 +22,9 @@ layout: default
         <button type="button" class="collapsible">{{ tag }}</button>
         <div class="content">
             {% for post in site.tags[tag] %}
-                <a href="{{ post.url }}">{{ post.title }}
+                <a href="{{ post.url }}">
+                    <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 30px;">
+                    {{ post.title }}
                     <span class="post-meta">{{ post.date | date: date_format }}</span>
                 </a>
                 <br>        
