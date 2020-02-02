@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<article class="post">
     {%- if page.title -%}
         <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
     {{ content }}
 
-    <br>
+
     {% capture tags %}
         {% for tag in site.tags %}
             {{ tag[0] }}
@@ -18,36 +18,53 @@ layout: default
     {% assign sortedtags = tags | split:' ' | sort %}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
-    {% for tag in sortedtags %}
-        <button type="button" class="collapsible">{{ tag }}</button>
-        <div class="content">
-            {% for post in site.tags[tag] %}
-                <a href="{{ post.url }}">
-                    <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 30px;">
-                    {{ post.title }}
-                    <span class="post-meta">{{ post.date | date: date_format }}</span>
-                </a>
-                <br>        
-            {% endfor %}
-        </div>
-    {% endfor %}
+    <ul class="tag-ul">
+        {% for tag in sortedtags %}
+            <li class="tag-li">
+                <button class="tag-button" tag="{{ tag }}">{{ tag }}</button>
+            </li> 
+        {% endfor %}
+    </ul>
 
-</div>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        
+        <a class="post-link" href="{{ post.url | relative_url }}" tags="{{ post.tags }}">
+          <div class="post-text">
+            <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 30px;">
+            {{ post.title | escape }}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+          </div>
+        </a>
+        
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+</article>
 
 
 <script>
-    var coll = document.getElementsByClassName("collapsible");
+    var button = document.getElementsByClassName("tag-button");
+    var posts = document.getElementsByClassName("post-link");
     var i;
     
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
+    for (i = 0; i < button.length; i++) {
+      button[i].addEventListener("click", function() {
+        
+        var j;
+        for (j = 0; j < posts.length; j++){
+            if (posts[j].getAttribute("tags").includes(this.getAttribute("tag"))){
+                posts[j].style.display = "block";
+            }
+            else {
+                posts[j].style.display = "none";
+            }
         }
     });
     }
-    </script>
+</script>
