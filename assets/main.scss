@@ -64,9 +64,14 @@ blockquote {
   padding-left: 10px;
 }
 
+.post-header{
+  display: flex;
+}
+
 .post-image {
-  float: left;
-  margin-right: 10px;
+  width: 15%;
+  height: 15%;  
+  padding-right: 10px;
 }
 
 /**
