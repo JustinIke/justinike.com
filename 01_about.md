@@ -8,16 +8,16 @@ I am an undergraduate computing science student documenting what I'm learning ab
 
 I hope to soon expand this page with various projects and posts.
 
-## My Tools
+### My Tools
 
 - Computer: Lenovo ThinkPad T450s
 - Text Editor: Visual Studio Code
 - Static Site Generator: Jekyll
-- Hosting: Netlify
 - Markdown Editor: Typora
 - Newsletter: Substack
 - Pixel Art: Aseprite
+- Hosting: Netlify
 
-## Special Links
+### Special Links 
 
 I'm inspired by the work of [Tania Rascia](https://www.taniarascia.com). Her commitment to making a low impact corner of the web is admirable, and her methods of learning in public is something I'm working at here.
