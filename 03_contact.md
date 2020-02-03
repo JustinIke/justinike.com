@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: contact
 title: Contact
 permalink: /contact/
 ---
 
-This is my contact information.
+For any questions, comments, or critiques, email me at <me@justinike.com>.
+
+If you would like to get email notifications of when I post, sign up here. No spam, easily unsubscribe.
