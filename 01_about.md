@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am an undergraduate computing science student documenting what I'm learning about. This website exists to help me reflect upon the stuff of life and to improve on my skills as a communicator.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I hope to soon expand this page with various projects and posts.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### My Tools
 
+- Computer: Lenovo ThinkPad T450s
+- Text Editor: Visual Studio Code
+- Static Site Generator: Jekyll
+- Markdown Editor: Typora
+- Newsletter: Substack
+- Pixel Art: Aseprite
+- Hosting: Netlify
 
-[jekyll-organization]: https://github.com/jekyll
+### Special Links 
+
+I'm inspired by the work of [Tania Rascia](https://www.taniarascia.com). Her commitment to making a low impact corner of the web is admirable, and her methods of learning in public is something I'm working at here.

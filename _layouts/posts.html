@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<article class="post">
+    {%- if page.title -%}
+        <h1 class="post-title">{{ page.title }}</h1>
+    {%- endif -%}
+
+    {{ content }}
+
+
+    {% capture tags %}
+        {% for tag in site.tags %}
+            {{ tag[0] }}
+        {% endfor %}
+    {% endcapture %}
+    {% assign sortedtags = tags | split:' ' | sort %}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+    <ul class="tag-ul">
+        {% for tag in sortedtags %}
+            <li class="tag-li" tag="{{ tag }}">{{ tag }}</li> 
+        {% endfor %}
+    </ul>
+
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        
+        <a class="post-link" href="{{ post.url | relative_url }}" tags="{{ post.tags }}">
+          <div class="post-text">
+            <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 35px;">
+            {{ post.title | escape }}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+          </div>
+        </a>
+        
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+</article>
+
+
+<script>
+    var buttons = document.getElementsByClassName("tag-li");
+    var posts = document.getElementsByClassName("post-link");
+    var i;
+    
+    for (i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener("click", function() {
+
+        if (this.style.borderColor == "rgb(98, 163, 136)") //use of rgb here as hex gets translated to rgb
+        	this.style.borderColor = "rgb(17, 17, 17)";
+
+        else 
+        	this.style.borderColor = "rgb(98, 163, 136)";
+
+        var j, k, hasAllTags;
+        var tags = [];
+
+        //go through all the buttons and if color is highlighted then add their tag to a variable
+        for (j = 0; j < buttons.length; j++){
+          if (buttons[j].style.borderColor == "rgb(98, 163, 136)")
+            tags.push(buttons[j].getAttribute("tag"));
+        }//for
+
+        //go through all the posts and see if their tags are all in the tag variable
+        for (j = 0; j < posts.length; j++){
+			hasAllTags = true;
+			for (k = 0; k < tags.length; k++){
+				if (! posts[j].getAttribute("tags").includes(tags[k])){
+					hasAllTags = false;
+					break;
+				}//if
+			}//inner for
+
+			if (hasAllTags) 
+				posts[j].style.display = "block";
+
+			else 
+            	posts[j].style.display = "none";
+			
+        }//outer for
+      });//addEventListener
+    }//for i
+</script>
