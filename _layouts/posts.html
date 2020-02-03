@@ -20,9 +20,7 @@ layout: default
 
     <ul class="tag-ul">
         {% for tag in sortedtags %}
-            <li class="tag-li">
-                <button class="tag-button" tag="{{ tag }}">{{ tag }}</button>
-            </li> 
+            <li class="tag-li" tag="{{ tag }}">{{ tag }}</li> 
         {% endfor %}
     </ul>
 
@@ -49,22 +47,45 @@ layout: default
 
 
 <script>
-    var button = document.getElementsByClassName("tag-button");
+    var buttons = document.getElementsByClassName("tag-li");
     var posts = document.getElementsByClassName("post-link");
     var i;
     
-    for (i = 0; i < button.length; i++) {
-      button[i].addEventListener("click", function() {
-        
-        var j;
+    for (i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener("click", function() {
+
+        if (this.style.borderColor == "rgb(98, 163, 136)") //use of rgb here as hex gets translated to rgb
+        	this.style.borderColor = "rgb(17, 17, 17)";
+
+        else 
+        	this.style.borderColor = "rgb(98, 163, 136)";
+
+        var j, k, hasAllTags;
+        var tags = [];
+
+        //go through all the buttons and if color is highlighted then add their tag to a variable
+        for (j = 0; j < buttons.length; j++){
+          if (buttons[j].style.borderColor == "rgb(98, 163, 136)")
+            tags.push(buttons[j].getAttribute("tag"));
+        }//for
+
+        //go through all the posts and see if their tags are all in the tag variable
         for (j = 0; j < posts.length; j++){
-            if (posts[j].getAttribute("tags").includes(this.getAttribute("tag"))){
-                posts[j].style.display = "block";
-            }
-            else {
-                posts[j].style.display = "none";
-            }
-        }
-    });
-    }
+			hasAllTags = true;
+			for (k = 0; k < tags.length; k++){
+				if (! posts[j].getAttribute("tags").includes(tags[k])){
+					hasAllTags = false;
+					break;
+				}//if
+			}//inner for
+
+			if (hasAllTags) 
+				posts[j].style.display = "block";
+
+			else 
+            	posts[j].style.display = "none";
+			
+        }//outer for
+      });//addEventListener
+    }//for i
 </script>
