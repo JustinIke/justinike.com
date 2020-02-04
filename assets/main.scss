@@ -40,7 +40,7 @@ strong {
 
 blockquote {
   color: #cccccc;
-  background-color: #0a0a0a;
+  background-color: #181818;
   border-left: 4px solid #62A388;
 }
 
@@ -53,7 +53,7 @@ blockquote {
 }
 
 .post-link:hover {
-  background-color: #0a0a0a;
+  background-color: #181818;
   text-decoration: none;
   border-radius: 2px;
 }
@@ -98,7 +98,7 @@ blockquote {
 
   @media screen and (max-width: 600px) {
     .site-nav {
-      background-color: #0a0a0a;
+      background-color: #181818;
       border: 1px solid #d1d1d1; }
 
     .site-nav .menu-icon > svg {
@@ -134,8 +134,8 @@ a {
  pre,
  code {
    font-size: 16px;
-   border: 1px solid #0a0a0a;
-   background-color: #0a0a0a; }
+   border: 1px solid #181818;
+   background-color: #181818; }
 
 
 .post-meta {
@@ -165,7 +165,7 @@ table {
     border: 1px solid $grey-color-light; }
 
 .highlight {
-  background-color: #0a0a0a;
+  background-color: #181818;
 }
 
 .iframe iframe{
@@ -182,7 +182,7 @@ table {
 .tag-li {
   margin:4px;
   color: #f7f7f7;
-  background-color: #111111;
+  background-color: #181818;
   text-align: center;
   padding: 16px;
   border: 1px solid #272727;
