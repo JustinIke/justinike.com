@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a Free Blog with Jekyll"
-date: 2020-01-30 16:38:50
+date: 2020-02-08 16:28:00
 tags: Development Guide
 image: jekyll-notext-light-transparent.png
 ---

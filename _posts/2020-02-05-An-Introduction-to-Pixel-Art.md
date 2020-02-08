@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Introduction to Pixel Art"
-date: 2020-02-05 16:38:50
+date: 2020-02-08 16:29:00
 tags: Hobby
 image: 2020-02-05-An-Introduction-to-Pixel-Art/Arizona.png
 
@@ -33,7 +33,7 @@ These went alright as well! Referencing the characters from Stardew definitely h
 
 It's so interesting to me how a single pixel can change so much, like the one missing pixel in his hair giving the sense that it is combed over. With such significant changes being made with a single pixel, it's easy to dwell on one change for a long time. 
 
-## Progression!
+## Progress!
 
 "Minis" are popular in the pixel art world. These are small, single subject pieces that some attempt to do daily (A challenge I may take on). Here are my first minis.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Blogging Justin"
-date: 2020-01-30 16:38:50
+date: 2020-02-08 16:27:00
 tags: Personal
 image: favicon.png
 ---
