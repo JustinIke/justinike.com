@@ -12,12 +12,12 @@ About a week after starting serious web development (and months of researching a
 
 ## The Purpose
 
-I want to document what I'm up to. The anticipated results of this come two-fold: 
+I want to document what I'm up to. The anticipated results of this come two-fold:
 
 1. My thoughts and feelings towards things become more developed to help shape what I enjoy and excel at, assisting my current self
 2. I am able to look back at previous content and track my learning, informing my future self
 
-I've realized that I always need something to work on, something that accompanies my mind throughout the day and has a product. Coming out of university, I have to be purposeful in fulfilling this necessity, as to continue to grow and learn. Various projects and milestones already form a checklist for me to complete, so I just have to get started. The first on that list was this website, which will assist the rest. 
+I've realized that I always need something to work on, something that accompanies my mind throughout the day and has a product. Coming out of university, I have to be purposeful in fulfilling this necessity, as to continue to grow and learn. Various projects and milestones already form a checklist for me to complete, so I just have to get started. The first on that list was this website, which will assist the rest.
 
 ## The Means
 

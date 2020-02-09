@@ -25,13 +25,13 @@ My first attempt at pixel went, I think, quite well, largely in part to the tuto
 
 As you can see, general art techniques like atmospheric perspective are quite necessary for the sense of depth in this particular image. The visual arts were never my passion, so this first trial excited me, showing me how simple it was to put together a pretty decent piece without too much pain. This ease is in part to the low fidelity allowing for our minds to fill in the blanks, kinda like impressionist painting. Obviously it's not *that* great, but it was it was a fun first attempt that gave me the confidence to continue on.
 
-Next, I tried my hand at some [Stardew Valley](https://www.stardewvalley.net/) inspired characters. 
+Next, I tried my hand at some [Stardew Valley](https://www.stardewvalley.net/) inspired characters.
 
 {% include image.html url="/assets/images/2020-02-05-An-Introduction-to-Pixel-Art/Characters.png" description="A Bandana Boy and a Spectacled Girl" style="zoom:100%;" %}
 
 These went alright as well! Referencing the characters from Stardew definitely helped, and I imagine creating my own concept of human characters would be quite difficult. Either way, these manage to contain so much personality stuffed into so little space and color.
 
-It's so interesting to me how a single pixel can change so much, like the one missing pixel in his hair giving the sense that it is combed over. With such significant changes being made with a single pixel, it's easy to dwell on one change for a long time. 
+It's so interesting to me how a single pixel can change so much, like the one missing pixel in his hair giving the sense that it is combed over. With such significant changes being made with a single pixel, it's easy to dwell on one change for a long time.
 
 ## Progress!
 
@@ -41,7 +41,7 @@ It's so interesting to me how a single pixel can change so much, like the one mi
 
 I love how the smaller of the two gets the same point across with less than the larger. I also love how the larger one packs in so much more detail with more pixels and one more branch color (and a couple more decorative colors).
 
-Color choice is one of the most important aspects of pixel art, so much so that the first tutorial of [Slynyrd](https://raymond-schlitter.squarespace.com/blog/2018/1/10/pixelblog-1-color-palettes) is dedicated to color palettes. Many people in the pixel art community highly value the use of few colors, sometimes just 2 or 3, as to stay true to the medium's origins, uniqueness, and ability to under remain attractive under limitations. These values help make pixel art so attractive to me; it remains endlessly nostalgic, and yet it produces a fresh personality. 
+Color choice is one of the most important aspects of pixel art, so much so that the first tutorial of [Slynyrd](https://raymond-schlitter.squarespace.com/blog/2018/1/10/pixelblog-1-color-palettes) is dedicated to color palettes. Many people in the pixel art community highly value the use of few colors, sometimes just 2 or 3, as to stay true to the medium's origins, uniqueness, and ability to under remain attractive under limitations. These values help make pixel art so attractive to me; it remains endlessly nostalgic, and yet it produces a fresh personality.
 
 Finally, my latest pixel art was for this site. After getting a general color scheme to work off of, I just slapped some pixels in a couple simple designs and chose one.
 
