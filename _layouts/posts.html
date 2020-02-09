@@ -24,6 +24,8 @@ layout: default
         {% endfor %}
     </ul>
 
+    <br>
+
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -31,7 +33,7 @@ layout: default
         
         <a class="post-link" href="{{ post.url | relative_url }}" tags="{{ post.tags }}">
           <div class="post-text">
-            <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 35px;">
+            <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 55px;">
             {{ post.title | escape }}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
           </div>
@@ -55,7 +57,7 @@ layout: default
       buttons[i].addEventListener("click", function() {
 
         if (this.style.borderColor == "rgb(98, 163, 136)") //use of rgb here as hex gets translated to rgb
-        	this.style.borderColor = "rgb(17, 17, 17)";
+        	this.style.borderColor = "rgb(39,39,39)";
 
         else 
         	this.style.borderColor = "rgb(98, 163, 136)";
