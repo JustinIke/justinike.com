@@ -32,11 +32,11 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         
         <a class="post-link" href="{{ post.url | relative_url }}" tags="{{ post.tags }}">
-          <div class="post-text">
-            <img class="post-image" src="/assets/images/{{ post.image }}" style="max-width: 55px;">
-            {{ post.title | escape }}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-          </div>
+          <img class="li-post-image" src="/assets/images/{{ post.image }}">
+            <div class="li-post-text">  
+              <p style="margin-bottom: 0px">{{ post.title | escape }}</p>
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+            </div>
         </a>
         
         {%- if site.show_excerpts -%}
@@ -82,7 +82,7 @@ layout: default
 			}//inner for
 
 			if (hasAllTags) 
-				posts[j].style.display = "block";
+				posts[j].style.display = "flex";
 
 			else 
             	posts[j].style.display = "none";
