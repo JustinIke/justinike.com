@@ -51,6 +51,7 @@ blockquote {
 
 .post-link {
   font-weight: 500;
+  display: flex;
 }
 
 .post-link:hover {
@@ -59,20 +60,27 @@ blockquote {
   border-radius: 2px;
 }
 
-.post-text {
+.li-post-text {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
 }
 
+
 .post-header{
   display: flex;
 }
 
+.li-post-image {
+  width: 100px;
+  height: 100px;  
+  padding: 12px;
+}
+
 .post-image {
-  width: 20%;
-  height: 20%;  
-  padding-right: 12px;
+    width: 20%;
+    height: 20%;  
+    padding-right: 12px;
 }
 
 /**
