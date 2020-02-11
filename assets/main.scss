@@ -83,6 +83,23 @@ blockquote {
     padding-right: 12px;
 }
 
+.pageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.pageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.pageNavigation .next {
+  text-align: right;
+}
+
 /**
 * Site header
 */
