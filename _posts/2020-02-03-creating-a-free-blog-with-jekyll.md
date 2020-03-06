@@ -32,7 +32,7 @@ image: jekyll-notext-light-transparent.png
 ---
 ```
 
-Once you've made a new markdown post, it will automatically be added to your local website! Jekyll does this by using the language Liquid to create page templates and pull front matter from your posts. To actually have all these changes go on the internet, you'll have to host your website somewhere.
+Once you've made a new markdown post, it will automatically be added to your local website! Jekyll does this by using the Liquid lanuage to create page templates and pull front matter from your posts. To actually have all these changes go on the internet, you'll have to host your website somewhere.
 
 ## Hosting
 
@@ -40,7 +40,7 @@ Jekyll works intrinsically with [GitHub Pages](https://pages.github.com/) or can
 
 ## Domain Name
 
-A domain name is your address on the internet. For a completely free website, you could use a free one provided by the hosting company. If you would like a clean domain name without .netlify or your hosting equivalent appended to the end, then you'll have to buy one. I would suggest staying away from companies like GoDaddy or Domains.com, as they add on charges for services that come standard with [Google Domains](https://domains.google/).
+A domain name is your address on the internet. www.justinike.com is the domain name for this website. For a completely free website, you could use a free one provided by the hosting company. If you would like a clean domain name without .netlify or your hosting equivalent appended to the end, then you'll have to buy one. I would suggest staying away from companies like GoDaddy or Domains.com, as they add on charges for services that come standard with [Google Domains](https://domains.google/).
 
 ## Conclusion
 
