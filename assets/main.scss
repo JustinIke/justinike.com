@@ -66,6 +66,11 @@ blockquote {
   padding-left: 10px;
 }
 
+@media screen and (max-width: 625px) {
+  .li-post-text {
+    line-height: 120%;
+  }
+}
 
 .post-header{
   display: flex;
