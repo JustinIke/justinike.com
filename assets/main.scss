@@ -34,9 +34,14 @@ body, button{
 h1,
 h2,
 h3,
+h4,
 strong {
   color: #f7f7f7;
   font-weight: 500;
+}
+
+h3 {
+  font-size: 200;
 }
 
 blockquote {
@@ -218,6 +223,8 @@ table {
 
 .highlight {
   background-color: #181818;
+
+  .s     { color: #62A388 } // Literal.String
 }
 
 .highlighter-rouge .highlight {
