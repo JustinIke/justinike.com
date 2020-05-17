@@ -6,7 +6,7 @@ tags: Development Guide
 image: jekyll-notext-light-transparent.png
 ---
 
- [Jekyll](https://jekyllrb.com/) is a free static site generator providing the functionality to write posts in markdown (a simple format of typing out plain text) for streamlined content creation. Since the generator outputs HTML files, no back-end is necessary. This lets the server to simply store your files as opposed to having to run processes on it, allowing for low cost hosting. For basic sites like this one, it's all you need.
+ [Jekyll](https://jekyllrb.com/) is a free static site generator providing the functionality to write posts in markdown (a simple format of typing out plain text) for streamlined content creation. Since the generator outputs HTML files, no back-end is necessary. This lets the server simply store your files as opposed to having to run processes on them, allowing for low cost hosting. For basic sites like this one, it's all you need.
 
 This guide will provide the essential resources I use for creating and maintaining a free blog, along with a few tips.
 
@@ -16,7 +16,7 @@ As they do a better job than I could, the steps to get Jekyll going are outlined
 
 There is plenty of documentation on the Jekyll site and around the web to figure out how to do things, but I'll give one of my own tips.
 
-If you're using minima, check out the _includes and _layouts folders within the minima folder installed wherever Ruby was installed on your computer. This should be something like YOUR-RUBY-FOLDER/lib/ruby/gems/2.5.0/gems/minima-2.5.1. These are the files you're going to overwrite within your website folder to get personalized aspects of your website. This way, you can get an understanding of how their Liquid language works and how you can take advantage of it.
+If you're using minima, check out the _includes and _layouts folders within the minima folder installed wherever Ruby was installed on your computer. This should be something like YOUR-RUBY-FOLDER/lib/ruby/gems/2.5.0/gems/minima-2.5.1. These are the files you're going to overwrite within your website folder to get personalized aspects of your website. By looking over these, you can get an understanding of how their Liquid language works and how you can take advantage of it.
 
 ## Writing Posts
 
