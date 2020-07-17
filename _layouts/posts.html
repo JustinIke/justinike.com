@@ -55,18 +55,18 @@ layout: default
   for (i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function() {
 
-      if (this.style.borderColor == "rgb(98, 163, 136)") //use of rgb here as hex gets translated to rgb
+      if (this.style.borderColor == "rgb(5, 94, 104)") //use of rgb here as hex gets translated to rgb
       	this.style.borderColor = "rgb(31,31,31)";
 
       else 
-      	this.style.borderColor = "rgb(98, 163, 136)";
+      	this.style.borderColor = "rgb(5, 94, 104)";
 
       var j, k, hasAllTags;
       var tags = [];
 
       //go through all the buttons and if color is highlighted then add their tag to a variable
       for (j = 0; j < buttons.length; j++){
-        if (buttons[j].style.borderColor == "rgb(98, 163, 136)")
+        if (buttons[j].style.borderColor == "rgb(5, 94, 104)")
           tags.push(buttons[j].getAttribute("tag"));
       }//for
 
