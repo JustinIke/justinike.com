@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am an undergraduate computing science student documenting what I'm learning about. This website exists to help me reflect upon the stuff of life and to improve on my skills as a communicator.
+I am a web developer documenting what I'm learning about. This website exists to help me reflect upon the stuff of life and to improve on my skills as a communicator.
 
 I hope to soon expand this page with various projects and posts.
 
