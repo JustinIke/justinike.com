@@ -33,7 +33,7 @@ layout: default
         <a class="post-link" href="{{ post.url | relative_url }}" tags="{{ post.tags }}">
           <img class="li-post-image" src="/assets/images/{{ post.image }}">
           <div class="li-post-text">  
-            <p style="margin-bottom: 0px">{{ post.title | escape }}</p>
+            <p class="li-post-title">{{ post.title | escape }}</p>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
           </div>
         </a>

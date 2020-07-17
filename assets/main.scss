@@ -9,23 +9,24 @@ $background: #1c1c1c;
 $darkest: #181818;
 $lighter: #1f1f1f;
 $text: #888888;
-$header: #d8d8d8;
+$light-text: #d8d8d8;
 $mint: #62A388;
+$dark-mint: #055e68;
 
 ::selection {
-  background: #055e68; 
+  background: $dark-mint; 
 }
 ::-moz-selection {
-  background: #055e68; 
+  background: $dark-mint; 
 }
 ::-o-selection {
-  background: #055e68;
+  background: $dark-mint;
 }
 ::-ms-selection {
-  background: #055e68;
+  background: $dark-mint;
 }
 ::-webkit-selection {
-  background: #055e68;
+  background: $dark-mint;
 }
 
 /**
@@ -44,7 +45,7 @@ h3,
 h4,
 strong {
   font-family: Oxygen, sans-serif;
-  color: $header;
+  color: $light-text;
   font-weight: 500;
 }
 
@@ -55,7 +56,7 @@ h3 {
 blockquote {
   color: $text;
   background-color: $darkest;
-  border-left: 4px solid $mint;
+  border-left: 2px solid $dark-mint;
 }
 
 .post-list > li{
@@ -66,7 +67,7 @@ blockquote {
   font-weight: 500;
   display: flex;
   border-radius: 0px;
-  transition: background-color .4s, margin-left .8s;
+  transition: background-color .4s;
 }
 
 .post-link:hover {
@@ -140,7 +141,6 @@ blockquote {
   text-align: right;
 }
 
-
 /**
 * Site header
 */
@@ -152,10 +152,10 @@ blockquote {
 
   .site-title, .site-title:visited {
     font-size: 28px;
-    color: $header; }
+    color: $light-text; }
  
   .site-nav .page-link {
-      color: $header; 
+      color: $light-text; 
   }
     
   .page-link:after, .site-title:after {
@@ -165,7 +165,7 @@ blockquote {
     left: 0px;
     width: 0%;
     height: 1px;
-    background-color: $mint;
+    background: linear-gradient(90deg,$mint,$dark-mint);
     transition: width .5s ease-in-out;
   }
   
@@ -218,8 +218,13 @@ a {
  code {
    font-size: 16px;
    border: 1px solid $darkest;
-   background-color: $darkest; }
+   background-color: $darkest;
+}
 
+.li-post-title {
+  color: $light-text;
+  margin-bottom: 0px
+}
 
 .post-meta {
     font-size: 16px;
@@ -233,15 +238,15 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #cccccc;
+  color: $text;
   border-collapse: collapse;
-  border: 1px solid #f7f7f7; }
+  border: 1px solid $grey-color-light; }
   table tr:nth-child(even) {
-    background-color: #2b2b2b; }
+    background-color: $lighter; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #2b2b2b;
+    background-color: $lighter;
     border: 1px solid $grey-color-light;
     border-bottom-color: $grey-color-light; }
   table td {
@@ -255,7 +260,7 @@ table {
 
 .highlighter-rouge .highlight {
   background: $darkest; 
-  border-top: 1px solid #055e68;
+  border-top: 1px solid $dark-mint;
 }
 
 .iframe iframe{
@@ -282,7 +287,7 @@ table {
 
 .tag-li {
   margin:4px;
-  color: $header;
+  color: $light-text;
   background-color: $darkest;
   text-align: center;
   padding: 16px;
@@ -301,3 +306,6 @@ table {
   text-decoration: underline;
 }
 
+.footer-link a{
+  color: $light-text;
+}

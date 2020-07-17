@@ -7,14 +7,14 @@
         <div class="footer-col footer-col-1">
           <ul class="contact-list">
               {%- if site.email -%}
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                <li class="footer-link"><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
               {%- endif -%}
           </ul>
         </div>
   
         <div class="footer-col footer-col-2">
-          <p class="rss-subscribe"><a href="//justinike.substack.com">Newsletter</a></p>
-          <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>  
+          <p class="footer-link"><a href="//justinike.substack.com">Newsletter</a></p>
+          <p class="footer-link"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>  
         </div>
       </div>
   
