@@ -7,4 +7,4 @@ layout: home
 
 # Hello. I'm Justin.
 
-I'm a student writing about my experiences in computing, trials with various hobbies, and reflections from life.
+I'm a web developer writing about my experiences in computing, trials with various hobbies, and reflections from life.
