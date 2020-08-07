@@ -6,11 +6,8 @@ permalink: /about/
 
 I am a web developer documenting what I'm learning about. This website exists to help me reflect upon the stuff of life and to improve on my skills as a communicator.
 
-I hope to soon expand this page with various projects and posts.
-
 ### My Tools
 
-- Computer: Lenovo ThinkPad T450s
 - Text Editor: Visual Studio Code
 - Static Site Generator: Jekyll
 - Markdown Editor: Typora
