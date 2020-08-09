@@ -49,11 +49,17 @@ strong {
   font-weight: 500;
 }
 
+.post-content h2 {
+  padding-top: 1.5rem;
+}
+
 h3 {
   font-size: 200;
 }
 
 blockquote {
+  font-size: 16px;
+  font-style: normal;
   color: $text;
   background-color: $darkest;
   border-left: 2px solid $dark-mint;

@@ -213,4 +213,4 @@ At its most basic, Angular uses components to organize the project, cut down on 
 
 Angular is one of the three most popular web frameworks/libraries, with the other two being React and Vue. React is the most popular of them, while Angular tends to be more popular with enterprises. Knowing these frameworks is essential in web development as plain JavaScript is not enough anymore. Some of their concepts, such as components, overlap, making learning the others much more simple once you've used one. 
 
-I'm curious about learning React and its static site generator Gatsby next, as they are a very popular pairing and a likely candidate for my future projects.
+I'm particularly curious about learning React and its static site generator Gatsby next, as they are a very popular pairing and a likely candidate for my future projects.
