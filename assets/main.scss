@@ -53,10 +53,21 @@ h3 {
   font-size: 200;
 }
 
+p {
+  margin-bottom: 1.5rem;
+}
+
 blockquote {
+  font-size: 16px;
+  font-style: normal;
   color: $text;
   background-color: $darkest;
   border-left: 2px solid $dark-mint;
+  margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
 }
 
 .post-list > li{
@@ -201,6 +212,11 @@ blockquote {
   font-size: 18px;
 }
 
+.footer-link a {
+  color: $light-text;
+}
+
+
 /**
 * Links
 */
@@ -254,7 +270,7 @@ table {
 
 .highlight {
   background-color: $darkest;
-
+  margin-bottom: 1.5rem;
   .s { color: $mint } // Literal.String
 }
 
@@ -304,8 +320,4 @@ table {
 
 .tag-li:hover {
   text-decoration: underline;
-}
-
-.footer-link a{
-  color: $light-text;
 }
