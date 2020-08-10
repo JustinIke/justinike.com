@@ -215,6 +215,12 @@ blockquote {
 .footer-link a {
   color: $light-text;
 }
+.footer-link a:visited {
+  color: $light-text;
+}
+.footer-link a:hover {
+  color: $light-text;
+}
 
 
 /**
