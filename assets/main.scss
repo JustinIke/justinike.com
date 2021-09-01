@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&family=Open+Sans:wght@300;400&display=swap&family=Asap&family=Calistoga&display=swap');
 
 $grey-color-light: #383838;
 $background: #1c1c1c;
@@ -33,10 +33,11 @@ $dark-mint: #055e68;
 * Basic styling
 */
 body, button{
-  font-family: Open Sans, sans-serif;
+  font-family: Asap, Open Sans, sans-serif;
   color: $text;
   background-color: $background;
   line-height: 1.7;
+  font-size: 18px;
 }
 
 h1,
@@ -44,9 +45,17 @@ h2,
 h3,
 h4,
 strong {
-  font-family: Oxygen, sans-serif;
+  font-family: Calistoga, sans-serif;
   color: $light-text;
   font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, .post-list-heading {
+  font-size: 3rem;
 }
 
 h3 {
@@ -64,6 +73,10 @@ blockquote {
   background-color: $darkest;
   border-left: 2px solid $dark-mint;
   margin-bottom: 1.5rem;
+}
+
+.post-title {
+  letter-spacing: 0px;
 }
 
 .post-content h2 {
@@ -163,10 +176,17 @@ blockquote {
 
   .site-title, .site-title:visited {
     font-size: 28px;
-    color: $light-text; }
+    color: $light-text;
+
+  }
+
+  .site-title, .site-title:visited {
+    text-decoration: none !important;
+  }
  
   .site-nav .page-link {
       color: $light-text; 
+      font-size: 20px;
   }
     
   .page-link:after, .site-title:after {
