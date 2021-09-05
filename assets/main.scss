@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&family=Open+Sans:wght@300;400&display=swap&family=Asap&family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&family=Open+Sans:wght@300;400&display=swap&family=Asap&display=swap');
 
 $grey-color-light: #383838;
 $background: #1c1c1c;
@@ -76,7 +76,7 @@ h2,
 h3,
 h4,
 strong {
-  font-family: Calistoga, sans-serif;
+  font-family: Oxygen, sans-serif;
   color: $light-text;
   font-weight: 500;
 }
