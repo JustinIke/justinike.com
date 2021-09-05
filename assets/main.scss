@@ -10,8 +10,12 @@ $darkest: #181818;
 $lighter: #1f1f1f;
 $text: #888888;
 $light-text: #d8d8d8;
+
+
 $mint: #62A388;
 $dark-mint: #055e68;
+$darkest-mint: #033036;
+
 
 ::selection {
   background: $dark-mint; 
@@ -32,7 +36,34 @@ $dark-mint: #055e68;
 /**
 * Basic styling
 */
-body, button{
+.wrapper {
+  max-width: -webkit-calc(1000px - (30px * 2));
+}
+
+.header-wrapper, .footer-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+
+@media(max-width: 1070px) {
+  .header-wrapper,.footer-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+
+@media(max-width: 800px) {
+  .header-wrapper, .footer-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+body, button {
   font-family: Asap, Open Sans, sans-serif;
   color: $text;
   background-color: $background;
@@ -52,6 +83,7 @@ strong {
 
 h1 {
   font-size: 4rem;
+  line-height: 1.1;
 }
 
 h2, .post-list-heading {
@@ -113,6 +145,7 @@ blockquote {
 
 .post-header{
   display: flex;
+  margin-bottom: 5px;
 }
 
 .li-post-image {
@@ -125,6 +158,7 @@ blockquote {
     width: 20%;
     height: 20%;  
     padding-right: 12px;
+    padding-bottom: 30px;
 }
 
 .author-card {
@@ -169,10 +203,12 @@ blockquote {
 * Site header
 */
 .site-header {
-  border-top: 5px solid $background;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 55.95px;
-  position: relative; }
+  border-top: none;
+  border-bottom: none;
+  min-height: 4rem;
+  padding-top: 1.6rem;
+  position: relative; 
+}
 
   .site-title, .site-title:visited {
     font-size: 28px;
@@ -189,41 +225,42 @@ blockquote {
       font-size: 20px;
   }
     
-  .page-link:after, .site-title:after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 0px;
-    width: 0%;
-    height: 1px;
-    background: linear-gradient(90deg,$mint,$dark-mint);
-    transition: width .5s ease-in-out;
-  }
+  // .page-link:after, .site-title:after {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -1px;
+  //   left: 0px;
+  //   width: 0%;
+  //   height: 1px;
+  //   background: linear-gradient(90deg,$mint,$dark-mint);
+  //   transition: width .5s ease-in-out;
+  // }
   
-  .page-link:hover:after, .site-title:hover:after {
-    width: 100%;
-  }
+  // .page-link:hover:after, .site-title:hover:after {
+  //   width: 100%;
+  // }
 
   .header-logo {
     float: left;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 7px;
   }
 
   @media screen and (max-width: 600px) {
     .site-nav {
+      position: inherit;
       background-color: $background;
-      border: 1px solid $text; }
+      border: 1px solid #d8d8d8; }
 
     .site-nav .menu-icon > svg {
-      fill: $text; }
+      fill: #d8d8d8; }
     }
 
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: none;
   }
   .footer-col {
     margin-bottom: 0px;
