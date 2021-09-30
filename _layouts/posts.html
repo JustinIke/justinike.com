@@ -72,15 +72,15 @@ layout: default
 
       //go through all the posts and see if their tags are all in the tag variable
       for (j = 0; j < posts.length; j++){
-	      hasAllTags = true;
+	      hasTag = false;
 		    for (k = 0; k < tags.length; k++){
-			    if (! posts[j].getAttribute("tags").includes(tags[k])){
-				    hasAllTags = false;
+			    if (posts[j].getAttribute("tags").includes(tags[k])){
+				    hasTag = true;
 				    break;
 			    }//if
 		    }//inner for
 
-		    if (hasAllTags) 
+		    if (hasTag) 
 			    posts[j].style.display = "flex";
 
 	      else 
