@@ -96,6 +96,7 @@ h1 {
 
 h2, .post-list-heading {
   font-size: 3rem;
+  line-height: 4rem;
 }
 
 h3 {
@@ -261,9 +262,11 @@ blockquote {
 
   @media screen and (max-width: 600px) {
     .site-nav {
-      position: inherit;
+      position: absolute;
       background-color: $background;
-      border: 1px solid #d8d8d8; }
+      border: 1px solid #d8d8d8; 
+      top: 25px;
+    }
 
     .site-nav .menu-icon > svg {
       fill: #d8d8d8; }
