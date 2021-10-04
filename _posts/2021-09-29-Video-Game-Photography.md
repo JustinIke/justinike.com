@@ -3,7 +3,7 @@ layout: post
 title: "Video Game Photography"
 date: 2021-10-02 16:27:00
 tags: Personal
-image: \2021-05-30-Control\Control Ultimate Edition_20210520222030.png
+image: Screenshots\Spiderman\Marvel's Spider-Man_ Miles Morales_Thumbnail.png
 ---
 
 One of my greatest joys in running through single player video games lately has been in-game photo modes. These let you stop the gameplay, manually move around the camera, adjust some real camera-like settings, and snap a pic. It's changed the way I look at games, made me appreciate them even more, and extended my play time with them. Not only that, but I've also learned some photography skills and vocabulary throughout the process.
