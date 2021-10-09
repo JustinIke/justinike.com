@@ -2,11 +2,11 @@
 layout: post
 title: "Increasing Proficiency with Computer Shortcuts"
 date: 2020-07-17 20:00:00
-tags: Other
+tags: Guide
 image: 2020-07-17-Increasing-Proficiency-With-Computer-Shortcuts\CTRL.png
 ---
 
-Lately I've been learning and using a lot more shortcuts on my computer than ever before, and I really benefit from them, so I figured I'd write them down. Just by implementing one of these every once in a while, you can really cut down on the amount of times you have to reach for your mouse or navigate around the screen, plus it makes you feel like a big shot. As my Dad said on the topic, there are lots of things that we don't know about that are right at our fingertips. Here are some of the shortcuts I use often that I think would be helpful to most people.
+Lately I've been learning and using a lot more shortcuts on my computer than ever before, and I really benefit from them, so I figured I'd write them down. Just by implementing one of these every once in a while, you can really cut down on the amount of times you have to reach for your mouse or navigate around the screen. As my Dad said on the topic, there are lots of things that we don't know about that are right at our fingertips (how punny). Here are some of the shortcuts I use often that I think would be helpful to most people.
 
 Also, sorry Mac users, this article is skewed towards Windows, but most of these work with command (Ctrl) and option (Alt).
 
@@ -32,10 +32,6 @@ The student's saviour, this shortcut lets you type something into a bar and it w
 
 Highlights all of document or page you're looking at, so instead of highlighting with your mouse and scrolling down until you're at the bottom of the document, you can do it with two keys, combine this with a Ctrl + C, and you can start moving whole documents around easy peasy.
 
-#### Ctrl + D
-
-Duplicates the highlighted piece of text.
-
 #### Ctrl + T
 
 Opens a new tab in a web browser
@@ -47,7 +43,3 @@ Center clicking (clicking on the scrolly thing) on a link opens up a new tab in 
 Double clicking on text selects the whole word.
 
 Triple clicking on text selects the whole line.
-
-## Conclusion
-
-In the world of shortcuts, it goes a lot deeper than this. There are programs like [Vim](https://www.vim.org/) that are created for the purpose of faster text editing by reducing the need for a mouse. However I'm by no means a power user, and these are the shortcuts I find myself using daily.
