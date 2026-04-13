@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "3.4.8"
+ruby "3.4.9"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -11,7 +11,7 @@ ruby "3.4.8"
 # Happy Jekylling!
 gem "jekyll", "~> 4.4"
 
-gem "minima", "~> 2.6"
+gem "minima", "~> 2.5"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -31,7 +31,4 @@ end
 
 # Required by Ruby 3.x for the default HTTP server used by Jekyll's local preview.
 gem "webrick", "~> 1.8"
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
